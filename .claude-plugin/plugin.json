@@ -1,7 +1,7 @@
 {
   "name": "lucas-kit",
-  "version": "0.1.0",
-  "description": "Personal reply-style skills for Claude Code.",
+  "version": "0.2.0",
+  "description": "Personal reply-style skills and a safety guard hook for Claude Code.",
   "author": {
     "name": "Lucas Le",
     "url": "https://github.com/lucasle95"

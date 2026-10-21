@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash|PowerShell",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"const p=require('node:path'),u=require('node:url');const r=process.env.CLAUDE_PLUGIN_ROOT;if(r)import(u.pathToFileURL(p.join(r,'hooks','guard.mjs')).href).catch(()=>{})\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

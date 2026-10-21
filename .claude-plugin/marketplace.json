@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "lucas-kit",
-      "description": "Personal reply-style skills for Claude Code.",
+      "description": "Personal reply-style skills and a safety guard hook for Claude Code.",
       "source": "./",
       "category": "productivity"
     }
