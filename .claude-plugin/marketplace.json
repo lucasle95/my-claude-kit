@@ -1,0 +1,17 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "lucas-kit",
+  "description": "Lucas's personal Claude Code kit: reply-style skills and setup for a new machine.",
+  "owner": {
+    "name": "Lucas Le",
+    "url": "https://github.com/lucasle95"
+  },
+  "plugins": [
+    {
+      "name": "lucas-kit",
+      "description": "Personal reply-style skills for Claude Code.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
